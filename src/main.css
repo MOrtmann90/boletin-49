@@ -63,7 +63,13 @@ a:hover {
 }
 
 .logo-tandil {
-  filter: invert(10%) sepia(28%) saturate(564%) hue-rotate(185deg) brightness(95%) contrast(89%);
+  filter: invert(10%) sepia(28%) saturate(564%) hue-rotate(185deg)
+    brightness(95%) contrast(89%);
+}
+
+.foot-note {
+  font-size: 0.8rem;
+  text-align: right;
 }
 
 /* ///////////////////////  HEADER  /////////////////////// */
@@ -196,6 +202,23 @@ footer p:nth-child(2) {
 
 footer img {
   margin: 2rem auto 1rem auto;
+}
+
+/* MAP STYLE */
+.map-frame {
+  margin: 2rem 0;
+}
+
+#mapa-main {
+  width: 100%;
+  min-height: 40rem;
+}
+
+.map-frame h5 {
+  color: var(--secondary-font-color);
+  font-size: 1.4rem;
+  text-align: center;
+  margin: 1rem 0;
 }
 
 /* ///////////////////////  MEDIA QUERIES  /////////////////////// */
